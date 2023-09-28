@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+
+}
+
+/* colores  */
+:root{
+    --celeste:#2898ee;
+    --azul-claro:#107acc;
+    --turquesa:#0cbccc;
+    --azul:#15297c;
+    --azul-oscuro:#142157;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: var(--azul);
+}
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+.button{
+    padding: .5rem .7rem;
+    margin-top: 13px;
+    background-color: transparent;
+    border: 1px solid var(--turquesa);
+    color: var(--turquesa);
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.button2{
+    padding: .5rem .7rem;
+    margin-top: 13px;
+    background-color: var(--turquesa);
+    color: white;
+    border-radius: 3px;
+    cursor: pointer;
+    border: none;
+    margin: 0 15px;
+}
+
+.fa-code{
+    color: var(--turquesa);
+}
+/* animaciones */
+/* Animaciones del nav */
+
+.certificado, .nav ul li  a{
+    position: relative;
+}
+
+
+.certificado::after,.nav ul li a::after {
+    content: "";
+    height: 2px;
+    width: 100%;
+    background: white;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transform: scaleX(0);
+    transform-origin: bottom right;
+    transition: transform 0.15s ease;
+}
+
+.certificado:hover::after,
+.nav ul li a:hover::after {
+    transform-origin: bottom left;
+    transform: scaleX(1);
+}
+
+/* animacion de curriculum */
+.idioma, .button{
+    transition: all 0.5s ease-out;
+}
+
+.idioma:hover, .button:hover{
+    background:  linear-gradient(to right, var(--celeste), var(--turquesa));
+    color: white;
+    border-color: white;
+    transition: all 0.3s ease-out;
+
+}
+
+html, body {
+    scroll-behavior: smooth; /* Cambia "auto" a "smooth" si deseas la velocidad predeterminada */
+  }
+  

@@ -1,0 +1,30 @@
+<section class="section-work wowrk" id="work">
+    <h2><i class="fa-solid fa-code"></i> Mi trabajo</h2>
+    <div class="work-container">
+        <div class="card-work" *ngFor="let datos of datos">
+            <img src="{{datos.img}}" alt="" width="11px" class="imgCardWork">
+            <h3>{{datos.nombre}} </h3>
+            <p>{{datos.description}} </p>
+           <a href="{{datos.git}}"  target="_blank"> <button class="button2">Code   <i class="fa-brands fa-github"></i></button></a>
+          <a href="{{datos.url}}" target="_blank">  <button class="button">ver pagina</button></a>
+        </div>
+        <!-- <div class="card-work">
+            <img src="./assets/page3.jpg" alt=""  class="imgCardWork">
+            <h3>Aseguradora</h3>
+            <p>Angular, Java, SpringBoot, Mysql</p>
+           <a  href="https://github.com/Franse0/Aseguradora-aplicacion" target="_blank"> <button class="button2">Code   <i class="fa-brands fa-github"></i></button></a>
+          <a href="/" target="_blank">  <button class="button">ver pagina</button></a>
+        </div> -->
+        <!-- <div class="card-work">
+            <img src="./assets/page2.jpg" alt=""  class="imgCardWork">
+            <h3>Proyecto prueba</h3>
+            <p>HTML, Css y JavaScript</p>
+           <a href="https://github.com/Franse0/beauty.github.io" target="_blank"> <button class="button2">Code   <i class="fa-brands fa-github"></i></button></a>
+          <a href="https://franse0.github.io/beauty.github.io/" target="_blank">  <button class="button">ver pagina</button></a>
+        </div> -->
+
+
+    </div>
+
+    <!-- <img src="/assets/imgs/portfollio.jpg" alt="trabajo"> -->
+</section>

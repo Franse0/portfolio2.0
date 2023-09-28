@@ -1,0 +1,132 @@
+
+
+
+/* Section Home */
+.section-home{
+    display: flex;
+    padding: 10rem 0 10rem 0;
+    align-items: center;
+    justify-content: center;
+}
+
+.presentation{
+    /* width: 25%; */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2px;
+    transform: translateX(-40px);
+    padding: 1rem;
+}
+
+.presentation h2{
+    color: white;
+    font-size: 2.5rem;
+    -webkit-text-stroke: 1.3px black ;
+}
+.presentation h1{
+    color: var(--turquesa);
+    font-size: 3rem;
+    -webkit-text-stroke: 1.3px black ;
+
+
+}
+.presentation h3{
+    color: white;
+    -webkit-text-stroke: .4px black ;
+
+    font-size: 1.7rem;
+}
+
+
+
+
+.profile-img{
+    border-radius: 20px;
+    width: 180px;
+    border-right: 3px solid var(--azul-claro);
+    border-bottom: 3px solid var(--turquesa);
+}
+
+@media (max-width:990px){
+    .profile-img{
+        width: 150px;
+    }
+
+    
+.presentation h2{
+    font-size: 2.2rem;
+    -webkit-text-stroke: 1px black ;
+
+}
+.presentation h1{
+    font-size: 2.7rem;
+    -webkit-text-stroke: 1px black ;
+
+}
+.presentation h3{
+    font-size: 1.5rem;
+}
+}
+@media (max-width:790px){
+    .section-home{
+        flex-direction: column;
+        gap: 60px;
+        padding: 5rem 0;
+        align-items: center;
+    }
+
+    .presentation{
+        align-items: center;
+        text-align: center;
+        transform: translateX(0);
+        margin-top: 60px;
+
+    }
+
+    .presentation h2{
+        font-size: 2rem;
+    }
+    .presentation h1{
+        font-size: 2.5rem;
+    }
+    
+    .presentation h3{
+        font-size: 1.2rem;
+    }    
+    .presentation button{
+        position: relative;
+        left: 30%;
+        top: 10px;
+    }
+}
+
+@media(max-width:590px){
+
+
+    .presentation h2{
+        font-size: 1.7rem;
+    }
+    .presentation h1{
+        font-size: 2rem;
+    }
+    
+    .presentation h3{
+        font-size: 1rem;
+    }    
+    .presentation button{
+        position: relative;
+        left: 30%;
+        top: 10px;
+    }
+    .profile-img{
+        width: 150px;
+    }
+
+    .presentation{
+        padding: 0;
+    }
+    .section-home{
+        padding: 3rem 0;
+    }
+}

@@ -1,0 +1,154 @@
+
+/* Header y Nav */
+
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    width: 100%;
+    background-color: var(--azul-oscuro);
+    border-bottom: var(--turquesa) 1px solid;
+    position: fixed;
+    z-index: 200;
+
+}
+
+.container-header{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1300px;
+}
+
+.logo{
+padding: 0 2rem;
+text-align: center;
+color: white;
+font-size: 2rem;
+font-family: sans-serif;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.fa-code{
+    color: #0cbccc;
+}
+
+.fa-sharp{
+    font-size: .5rem;
+    color: var(--azul-claro);
+    position: relative;
+    top: 10px;
+}
+
+.span-logo{
+    font-size: 4rem;
+    padding: 0;
+    position: relative;
+    bottom:  10px;
+}
+
+/* nav */
+
+.nav{
+    margin-right: 10%;
+    display: flex;
+}
+
+.nav ul {
+    display: flex;
+    gap: 20px;
+    padding: 0 2rem;
+}
+
+.nav ul li a{
+    color: white;
+    margin: 0 5px;
+}
+
+i{
+    color: wheat;
+}
+
+.fa-bars{
+    visibility: hidden;
+}
+
+.idioma{
+    background-color: transparent;
+    border: .9px solid var(--turquesa);
+    color: white;
+    padding: 0 .2rem;
+}
+
+nav ul li a {
+    cursor: pointer;
+}
+
+
+@media(max-width:790px){
+    .fa-bars{
+        visibility: visible;
+        font-size: 2rem;
+        cursor: pointer;
+        margin-right: 2rem;
+    }
+
+    nav{
+        /* border: 1px solid red; */
+    position: absolute;
+    top: 60px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column-reverse;
+    gap: 10px;
+    background-color: var(--azul-oscuro);
+    z-index: 200;
+    /* display: none;; */
+    }
+    .nav{
+        display: none;
+    }
+
+    .nav ul{
+        gap: 20px;
+        flex-direction: column;
+        height:70%;
+        /* display: ; */
+        text-align: center;
+        height: 100%;
+        justify-content: center;
+    }
+
+    .logo{
+        padding: 1rem .5rem;
+    }
+}
+
+
+@media(max-width:590px){
+    .span-logo{
+        font-size: 2rem;
+    }
+    .fa-code{
+        font-size:1.6rem;
+    }
+    .fa-sharp{
+        font-size: .4rem;
+    }
+    .fa-bars{
+        font-size: 1.7rem;
+    }
+}
+
+.show-nav{
+    display: block;
+}

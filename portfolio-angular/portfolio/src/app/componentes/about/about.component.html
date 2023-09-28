@@ -1,0 +1,33 @@
+<section class="section-about" id="about">
+    <div class="about-presentacion">
+        <h3><i class="fa-solid fa-code"></i>About</h3>
+        <p>Soy un apasionado programador listo para transformar tus ideas en realidad. ¿Listo para llevar tu proyecto al siguiente nivel? ¡Hablemos hoy mismo!.</p>
+    </div>
+
+    <div class="about-info">
+        <div class="tech-stack">
+            <h4>Tech Stack:</h4>
+            <div class="container-tech-stack">
+                <img src="./assets/javascript.png" alt="">
+                <img src="./assets/html.svg.png" alt="">
+                <img src="./assets/css.png" alt="">
+                <img src="./assets/java.png" alt="">
+                <img src="./assets/angular.svg" alt="">
+                <img src="./assets/mysql.png" alt="">
+                <img src="./assets/docker.png" alt="">
+                <img src="./assets/spring.png" alt="">
+                <img src="./assets/typescript.png" alt="">
+            </div>
+        </div>
+        <div class="education">
+            <h4>Educación:</h4>
+            <div class="card-educaction" *ngFor="let datos of datos">
+                <h5>{{datos.aval}} </h5>
+                <p>{{datos.escuela}} </p>
+                <span>{{datos.end}} </span>
+                <a target="_blank" href="{{datos.certificado}}" class="certificado">ver Certificado</a>
+            </div>
+        </div>
+
+    </div>
+</section>

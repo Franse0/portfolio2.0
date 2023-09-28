@@ -1,0 +1,32 @@
+<footer class="section-contact" id="contact" >
+    <div class="contac-me">
+        <h3 ><i class="fa-solid fa-code"></i> Contactame</h3>
+        <div class="">
+            <p><i class="fa-solid fa-location-dot"></i>  Argentina, Rio Negro</p>
+            <p><i class="fa-solid fa-envelope"></i>  panchymarin.fm@gmail.com</p>
+            <a href="https://github.com/Franse0" target="_blank"><i class="fa-brands fa-github"></i></a>   
+            <a href="https://www.linkedin.com/in/juan-fracisco-fran-a1619a256/" target="_blank"> <i class="fa-brands fa-linkedin"></i></a>
+        </div>
+    </div>
+    <form  class="form"  [formGroup]="formMensaje"  (submit)="consultar()">
+        <div class="content-input">
+            <label for="nombre">Nombre</label>
+            <input type="text" formControlName="nombre" required placeholder="Nombre" id="nombre" class="input-form">
+        </div>
+        <div class="content-input">
+            <label for="mail">Mail</label>
+            <input type="mail" formControlName="mail" required placeholder="Email" id="mail" class="input-form">
+        </div>
+        <div class="content-input">
+            <label for="message">Mensaje</label>
+            <input  type="text" class="input-form mensaje-form" formControlName="consulta" placeholder="Mensaje" id="message">
+        </div>
+        
+        <button type="submit" class="button" >Enviarrr</button>
+    </form>
+    <h3 class="especial"><i class="fa-solid fa-code"></i> Contactamee</h3>
+
+    <div class="mensaje" id="mensaej" #asMensaje>
+        <p class="content-mensaje" #asContenMsjj></p>
+    </div>
+</footer>

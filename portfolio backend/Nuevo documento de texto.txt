@@ -1,0 +1,27 @@
+{
+	"nombre":"Francisco",
+	"apellido":"Marin Cruz",
+	"mail":"panchymarin.fm@gmail.com"
+	"sobre_mi":"Soy un apasionado programador listo para transformar tus ideas en realidad. ¿Listo para llevar tu proyecto al siguiente nivel? ¡Hablemos hoy mismo!.",
+	"nacionalidad":"Argentina",
+	"ocupacion":"Programador Full Stack"
+
+}
+
+
+{
+	"nomnbre":"",
+	"url":"",
+	"git":"",
+	"img":""
+	"description":""
+}
+
+{
+	"escuela":"",
+	"img_school":"",
+	"certificado":"",
+	"start":"",
+	"end":"",
+	"aval";""	
+}
