@@ -8,11 +8,11 @@
 
 /* colores  */
 :root{
-    --celeste:#2898ee;
-    --azul-claro:#107acc;
-    --turquesa:#0cbccc;
-    --azul:#15297c;
-    --azul-oscuro:#142157;
+    --celeste:#1a1a40;
+    --azul-claro:#082032;
+    --turquesa:#1e5128;
+    --azul:#4c0027;
+    --azul-oscuro:#000000;
 }
 
 html{
@@ -86,7 +86,7 @@ ul{
 }
 
 .idioma:hover, .button:hover{
-    background:  linear-gradient(to right, var(--celeste), var(--turquesa));
+    background:  linear-gradient(to right, var(--azul-claro), var(--azul));
     color: white;
     border-color: white;
     transition: all 0.3s ease-out;

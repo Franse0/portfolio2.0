@@ -3,7 +3,7 @@
 
 /* section work */
 .section-work{
-    background:linear-gradient(to bottom, var(--azul-oscuro), var(--azul)) ;
+    background:linear-gradient(to bottom, var(--azul-oscuro), var(--azul-claro)) ;
     text-align: center;
     padding: 4rem 2rem 6rem ;
 }

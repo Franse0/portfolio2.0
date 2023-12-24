@@ -4,6 +4,8 @@
     display: flex;
     padding: 4rem 2rem;
     background-color: var(--azul-claro);
+    background:linear-gradient(to bottom, var(--azul-oscuro), var( --azul)) ;
+    
     align-items: center;
     justify-content: center;
     gap: 150px;
@@ -15,15 +17,19 @@
     margin: 40px 0;
 }
 
+.contac-me div p{
+    color: white;
+}
 .contac-me div p i{
     font-size: 1.5rem;
     color: var(--turquesa);
 }
 
-.contac-me div  i{
+.contac-me div  a{
     font-size: 2.5rem;
-    color: var(--azul-oscuro);
+    color: var(--turquesa);
     cursor: pointer;
+    margin: 0 2px;
 }
 
 
@@ -33,6 +39,7 @@
     border-radius: 20px;
     width: 25%;
     min-width: 300px;
+    border: 1px solid var(--azul-oscuro);
 }
 
 .content-input{
@@ -43,12 +50,14 @@
     gap: 5px;
 }
 .input-form{
-    background-color: #15297c;
+    background-color:var(--azul);
     border: none;
     padding: .2rem 0;
     width: 100%;
     color: white;
     padding: .2rem .2rem;
+    border: none;
+    border-radius: 3px;
 }
 
 
@@ -60,6 +69,9 @@
     display: none;
 }
 
+.form:hover{
+    border: 1px solid var(--azul);
+}
 @media (max-width:790px){
     .section-contact{
         flex-direction: column-reverse;

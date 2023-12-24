@@ -2,6 +2,8 @@
 /* Section about */
 .section-about{
     background-color: var(--azul-oscuro);
+    background:linear-gradient(to bottom, var(--azul-claro), var(--azul-oscuro)) ;
+
     padding: 5rem 3rem;
 
 }

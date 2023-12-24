@@ -6,7 +6,7 @@ import { Observable } from 'rxjs';
   providedIn: 'root'
 })
 export class TrabajoService {
-  // url:String="http://62.72.26.208:8080/api/";
+  // url:String="https://62.72.26.208:8080/api/";
   url:String="https://www.franciscomarinprog.com/api/";
 
   // url:String="http://localhost:8080/api/"

@@ -34,12 +34,12 @@ justify-content: center;
 }
 
 .fa-code{
-    color: #0cbccc;
+    color: var(--turquesa);
 }
 
 .fa-sharp{
     font-size: .5rem;
-    color: var(--azul-claro);
+    color: var(--turquesa);
     position: relative;
     top: 10px;
 }

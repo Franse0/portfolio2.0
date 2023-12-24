@@ -7,7 +7,7 @@ import { Observable } from 'rxjs';
 })
 export class EducacionService {
 
-  // url:String="http://62.72.26.208:8080/api/";
+  // url:String="https://62.72.26.208:8080/api/";
   url:String="https://www.franciscomarinprog.com/api/";
 
   // url:String="http://localhost:8080/api/"
